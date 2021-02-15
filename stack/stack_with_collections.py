@@ -1,8 +1,9 @@
 # Python program to 
 # demonstrate stack implementation
-# using list
+# using collections
+from collections import deque
 
-stack = []
+stack = deque()
 
 # adding elements onto the stack
 stack.append('A')
